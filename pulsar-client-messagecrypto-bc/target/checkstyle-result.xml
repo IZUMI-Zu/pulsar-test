@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.37">
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-client-messagecrypto-bc/src/main/java/org/apache/pulsar/client/impl/crypto/MessageCryptoBc.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-client-messagecrypto-bc/src/main/java/org/apache/pulsar/client/impl/crypto/package-info.java">
+</file>
+</checkstyle>

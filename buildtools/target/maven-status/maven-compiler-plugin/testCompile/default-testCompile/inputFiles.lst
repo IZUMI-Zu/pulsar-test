@@ -1,0 +1,10 @@
+/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/buildtools/src/test/java/org/apache/pulsar/tests/ThreadLocalStateCleanerTest.java
+/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/buildtools/src/test/java/org/apache/pulsar/tests/ThreadDumpUtilTest.java
+/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/buildtools/src/test/java/org/apache/pulsar/tests/TestRetrySupportSuccessTest.java
+/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/buildtools/src/test/java/org/apache/pulsar/tests/AnnotationListenerTest.java
+/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/buildtools/src/test/java/org/apache/pulsar/tests/TestRetrySupportBeforeMethodRetryTest.java
+/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/buildtools/src/test/java/org/apache/pulsar/tests/TestRetrySupportRetryTest.java
+/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/buildtools/src/test/java/org/apache/pulsar/tests/EnumValuesDataProviderTest.java
+/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/buildtools/src/test/java/org/apache/pulsar/tests/DefaultTestRetriesTest.java
+/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/buildtools/src/test/java/org/apache/pulsar/tests/RetryAnalyzerTest.java
+/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/buildtools/src/test/java/org/apache/pulsar/tests/FastThreadLocalStateCleanerTest.java

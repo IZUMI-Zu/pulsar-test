@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <echo>building python instance</echo>
+    <mkdir dir="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-functions/instance/target/python-instance" />
+    <copydir src="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-functions/instance/src/main/python" dest="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-functions/instance/target/python-instance" />
+    <mkdir dir="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-functions/instance/target/python-instance/pulsar" />
+    <copydir src="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-functions/instance/../../pulsar-client-cpp/python/pulsar" dest="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-functions/instance/target/python-instance/pulsar" />
+    <mkdir dir="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-functions/instance/target/python-instance/tests" />
+    <copydir src="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-functions/instance/src/test/python" dest="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-functions/instance/target/python-instance/tests" />
+  </target>
+</project>

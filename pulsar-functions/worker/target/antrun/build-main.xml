@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <echo>copy test config files</echo>
+    <mkdir dir="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-functions/worker/src/test/resources" />
+    <copy todir="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-functions/worker/src/test/resources/">
+      <fileset dir="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-functions/worker/../src/test/resources/">
+        <include name="*.yml" />
+      </fileset>
+    </copy>
+  </target>
+</project>

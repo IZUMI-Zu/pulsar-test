@@ -1,0 +1,21 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Pulsar Bouncy Castle FIPS Test
+
+
+From: 'an unknown organization'
+  - Bouncy Castle Provider (FIPS Distribution) (https://www.bouncycastle.org/fips-java) org.bouncycastle:bc-fips:jar:1.0.2
+    License: Bouncy Castle Licence  (https://www.bouncycastle.org/licence.html)
+  - Bouncy Castle PKIX APIs (FIPS distribution) (https://www.bouncycastle.org/fips-java) org.bouncycastle:bcpkix-fips:jar:1.0.2
+    License: Bouncy Castle Licence  (https://www.bouncycastle.org/licence.html)
+
+From: 'Apache Software Foundation' (http://www.apache.org/)
+  - Apache Pulsar :: Bouncy Castle :: BC-FIPS (https://github.com/apache/pulsar/bouncy-castle-parent/bouncy-castle-bcfips) org.apache.pulsar:bouncy-castle-bcfips:jar:2.10.6
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

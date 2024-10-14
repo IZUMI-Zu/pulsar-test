@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.37">
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/core/src/main/java/org/apache/pulsar/io/core/annotations/Connector.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/core/src/main/java/org/apache/pulsar/io/core/annotations/FieldDoc.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/core/src/main/java/org/apache/pulsar/io/core/annotations/IOType.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/core/src/main/java/org/apache/pulsar/io/core/annotations/package-info.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/core/src/main/java/org/apache/pulsar/io/core/BatchPushSource.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/core/src/main/java/org/apache/pulsar/io/core/BatchSource.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/core/src/main/java/org/apache/pulsar/io/core/BatchSourceTriggerer.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/core/src/main/java/org/apache/pulsar/io/core/KeyValue.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/core/src/main/java/org/apache/pulsar/io/core/PushSource.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/core/src/main/java/org/apache/pulsar/io/core/Sink.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/core/src/main/java/org/apache/pulsar/io/core/SinkContext.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/core/src/main/java/org/apache/pulsar/io/core/Source.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/core/src/main/java/org/apache/pulsar/io/core/SourceContext.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/core/src/main/java/org/apache/pulsar/io/core/package-info.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/core/src/test/java/org/apache/pulsar/io/core/BatchPushSourceTest.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/core/src/test/java/org/apache/pulsar/io/core/SinkTest.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/core/src/test/java/org/apache/pulsar/io/core/SourceTest.java">
+</file>
+</checkstyle>

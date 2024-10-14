@@ -1,0 +1,134 @@
+package org.apache.pulsar.common.api.proto;
+public final class CommandTcClientConnectRequest {
+	private long requestId;
+	private static final int _REQUEST_ID_FIELD_NUMBER = 1;
+	private static final int _REQUEST_ID_TAG = (_REQUEST_ID_FIELD_NUMBER << LightProtoCodec.TAG_TYPE_BITS)
+			| LightProtoCodec.WIRETYPE_VARINT;
+	private static final int _REQUEST_ID_TAG_SIZE = LightProtoCodec.computeVarIntSize(_REQUEST_ID_TAG);
+	private static final int _REQUEST_ID_MASK = 1 << (0 % 32);
+	public boolean hasRequestId() {
+		return (_bitField0 & _REQUEST_ID_MASK) != 0;
+	}
+	public long getRequestId() {
+		if (!hasRequestId()) {
+			throw new IllegalStateException("Field 'request_id' is not set");
+		}
+		return requestId;
+	}
+	public CommandTcClientConnectRequest setRequestId(long requestId) {
+		this.requestId = requestId;
+		_bitField0 |= _REQUEST_ID_MASK;
+		_cachedSize = -1;
+		return this;
+	}
+	public CommandTcClientConnectRequest clearRequestId() {
+		_bitField0 &= ~_REQUEST_ID_MASK;
+		return this;
+	}
+
+	private long tcId = 0;
+	private static final int _TC_ID_FIELD_NUMBER = 2;
+	private static final int _TC_ID_TAG = (_TC_ID_FIELD_NUMBER << LightProtoCodec.TAG_TYPE_BITS)
+			| LightProtoCodec.WIRETYPE_VARINT;
+	private static final int _TC_ID_TAG_SIZE = LightProtoCodec.computeVarIntSize(_TC_ID_TAG);
+	private static final int _TC_ID_MASK = 1 << (1 % 32);
+	public boolean hasTcId() {
+		return (_bitField0 & _TC_ID_MASK) != 0;
+	}
+	public long getTcId() {
+		return tcId;
+	}
+	public CommandTcClientConnectRequest setTcId(long tcId) {
+		this.tcId = tcId;
+		_bitField0 |= _TC_ID_MASK;
+		_cachedSize = -1;
+		return this;
+	}
+	public CommandTcClientConnectRequest clearTcId() {
+		_bitField0 &= ~_TC_ID_MASK;
+		tcId = 0;
+		return this;
+	}
+
+	private int _bitField0;
+	private static final int _REQUIRED_FIELDS_MASK0 = 0 | _REQUEST_ID_MASK | _TC_ID_MASK;
+	public int writeTo(io.netty.buffer.ByteBuf _b) {
+		checkRequiredFields();
+		int _writeIdx = _b.writerIndex();
+		LightProtoCodec.writeVarInt(_b, _REQUEST_ID_TAG);
+		LightProtoCodec.writeVarInt64(_b, requestId);
+		LightProtoCodec.writeVarInt(_b, _TC_ID_TAG);
+		LightProtoCodec.writeVarInt64(_b, tcId);
+		return (_b.writerIndex() - _writeIdx);
+	}
+	public int getSerializedSize() {
+		if (_cachedSize > -1) {
+			return _cachedSize;
+		}
+
+		int _size = 0;
+		_size += _REQUEST_ID_TAG_SIZE;
+		_size += LightProtoCodec.computeVarInt64Size(requestId);
+		_size += _TC_ID_TAG_SIZE;
+		_size += LightProtoCodec.computeVarInt64Size(tcId);
+		_cachedSize = _size;
+		return _size;
+	}
+	public void parseFrom(io.netty.buffer.ByteBuf _buffer, int _size) {
+		clear();
+		int _endIdx = _buffer.readerIndex() + _size;
+		while (_buffer.readerIndex() < _endIdx) {
+			int _tag = LightProtoCodec.readVarInt(_buffer);
+			switch (_tag) {
+				case _REQUEST_ID_TAG :
+					_bitField0 |= _REQUEST_ID_MASK;
+					requestId = LightProtoCodec.readVarInt64(_buffer);
+					break;
+				case _TC_ID_TAG :
+					_bitField0 |= _TC_ID_MASK;
+					tcId = LightProtoCodec.readVarInt64(_buffer);
+					break;
+				default :
+					LightProtoCodec.skipUnknownField(_tag, _buffer);
+			}
+		}
+		checkRequiredFields();
+		_parsedBuffer = _buffer;
+	}
+	private void checkRequiredFields() {
+		if ((_bitField0 & _REQUIRED_FIELDS_MASK0) != _REQUIRED_FIELDS_MASK0) {
+			throw new IllegalStateException("Some required fields are missing");
+		}
+	}
+	public CommandTcClientConnectRequest clear() {
+		tcId = 0;
+		_parsedBuffer = null;
+		_cachedSize = -1;
+		_bitField0 = 0;
+		return this;
+	}
+	public CommandTcClientConnectRequest copyFrom(CommandTcClientConnectRequest _other) {
+		_cachedSize = -1;
+		if (_other.hasRequestId()) {
+			setRequestId(_other.requestId);
+		}
+		if (_other.hasTcId()) {
+			setTcId(_other.tcId);
+		}
+		return this;
+	}
+	public byte[] toByteArray() {
+		byte[] a = new byte[getSerializedSize()];
+		io.netty.buffer.ByteBuf b = io.netty.buffer.Unpooled.wrappedBuffer(a).writerIndex(0);
+		this.writeTo(b);
+		return a;
+	}
+	public void parseFrom(byte[] a) {
+		io.netty.buffer.ByteBuf b = io.netty.buffer.Unpooled.wrappedBuffer(a);
+		this.parseFrom(b, b.readableBytes());
+	}
+	private int _cachedSize;
+
+	private io.netty.buffer.ByteBuf _parsedBuffer;
+
+}

@@ -1,0 +1,12 @@
+#Mon Oct 14 19:56:46 CST 2024
+/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/twitter/src/main/java/org/apache/pulsar/io/twitter/data/package-info.java=1579705815000
+configuration*?=2F195B23328649CD642741A07051AC87C23267E7
+/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/twitter/src/main/java/org/apache/pulsar/io/twitter/data/TwitterRecord.java=1579705815000
+/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/twitter/src/main/java/org/apache/pulsar/io/twitter/endpoint/package-info.java=1579705815000
+module-resource*?\:/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/twitter/target/checkstyle-suppressions.xml=EFDEA38F9FDA814853C84D1B45373778D5F4A7B5
+/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/twitter/src/main/java/org/apache/pulsar/io/twitter/package-info.java=1579705815000
+/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/twitter/src/test/java/org/apache/pulsar/io/twitter/TwitterFireHoseConfigTests.java=1579705815000
+/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/twitter/src/main/java/org/apache/pulsar/io/twitter/TwitterFireHose.java=1579705815000
+/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/twitter/src/main/java/org/apache/pulsar/io/twitter/endpoint/SampleStatusesEndpoint.java=1579705815000
+/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/twitter/src/main/java/org/apache/pulsar/io/twitter/data/TweetData.java=1579705815000
+/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/twitter/src/main/java/org/apache/pulsar/io/twitter/TwitterFireHoseConfig.java=1579705815000

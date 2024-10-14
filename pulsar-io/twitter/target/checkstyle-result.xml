@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.37">
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/twitter/src/main/java/org/apache/pulsar/io/twitter/data/TweetData.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/twitter/src/main/java/org/apache/pulsar/io/twitter/data/TwitterRecord.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/twitter/src/main/java/org/apache/pulsar/io/twitter/data/package-info.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/twitter/src/main/java/org/apache/pulsar/io/twitter/endpoint/SampleStatusesEndpoint.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/twitter/src/main/java/org/apache/pulsar/io/twitter/endpoint/package-info.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/twitter/src/main/java/org/apache/pulsar/io/twitter/TwitterFireHose.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/twitter/src/main/java/org/apache/pulsar/io/twitter/TwitterFireHoseConfig.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/twitter/src/main/java/org/apache/pulsar/io/twitter/package-info.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-io/twitter/src/test/java/org/apache/pulsar/io/twitter/TwitterFireHoseConfigTests.java">
+</file>
+</checkstyle>

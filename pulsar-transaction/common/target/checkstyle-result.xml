@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.37">
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-transaction/common/src/main/java/org/apache/pulsar/transaction/common/exception/TransactionConflictException.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-transaction/common/src/main/java/org/apache/pulsar/transaction/common/exception/package-info.java">
+</file>
+<file name="/home/zubinshuo/code/src-openeuler/pulsar/apache-pulsar-2.10.6-src/pulsar-transaction/common/src/main/java/org/apache/pulsar/transaction/impl/common/package-info.java">
+</file>
+</checkstyle>
